@@ -1,0 +1,222 @@
+{
+    "Games": {
+      "Banjo-Kazooie": {
+        "Name": "Banjo-Kazooie",
+        "Description": "Banjo-Kazooie is a 1998 platform game developed by Rare. Players control Banjo and his friend Kazooie as they try to rescue Banjo's sister Tooty from the evil witch Gruntilda.",
+        "Creator": "Rare",
+        "Platform": "Nintendo 64",
+        "Genre": "3D Platformer",
+        "Release": "June 20, 1998"
+      },
+      "BlastCorps": {
+        "Name": "Blast Corps",
+        "Description": "Blast Corps is a 1997 action puzzle game developed by Rare. Players must demolish buildings and clear paths for a runaway nuclear missile carrier.",
+        "Creator": "Rare",
+        "Platform": "Nintendo 64",
+        "Genre": "Action/Puzzle",
+        "Release": "March 24, 1997"
+      },
+      "BodyHarvest": {
+        "Name": "Body Harvest",
+        "Description": "Body Harvest is a 1998 action-adventure game developed by DMA Design. Players must thwart an alien invasion by traveling through time and fighting off aliens in various time periods.",
+        "Creator": "DMA Design",
+        "Platform": "Nintendo 64",
+        "Genre": "Action/Adventure",
+        "Release": "March 1998"
+      },
+      "Bomberman64": {
+        "Name": "Bomberman 64",
+        "Description": "Bomberman 64 is a 1997 action puzzle game. Players navigate 3D environments to defeat opponents using bombs while solving puzzles.",
+        "Creator": "Hudson Soft",
+        "Platform": "Nintendo 64",
+        "Genre": "Action/Puzzle",
+        "Release": "August 9, 1997"
+      },
+      "ConkersBadFurDay": {
+        "Name": "Conker's Bad Fur Day",
+        "Description": "Conker's Bad Fur Day is a 2001 platform game developed by Rare. Players control Conker as he navigates a world filled with humor and adult themes.",
+        "Creator": "Rare",
+        "Platform": "Nintendo 64",
+        "Genre": "3D Platformer",
+        "Release": "March 5, 2001"
+      },
+      "CookieClicker": {
+        "Name": "Cookie Clicker",
+        "Description": "Cookie Clicker is an incremental game developed by Julien 'Orteil' Thiennot. Players click on a large cookie to earn cookies, which can be spent on upgrades and buildings to produce more cookies automatically.",
+        "Creator": "Julien 'Orteil' Thiennot",
+        "Platform": "Web",
+        "Genre": "Incremental/Idle",
+        "Release": "August 24, 2013",
+        "GameUI": true
+      },
+      "CookieClickerClassic": {
+        "Name": "Cookie Clicker Classic",
+        "Description": "Cookie Clicker Classic is the original version of the incremental game developed by Julien 'Orteil' Thiennot. It features the same core mechanics of clicking a cookie to earn cookies, which are used to purchase upgrades and buildings for automated cookie production. This version laid the foundation for future iterations but retains a simpler, more retro experience.",
+        "Creator": "Julien 'Orteil' Thiennot",
+        "Platform": "Web",
+        "Genre": "Incremental/Idle",
+        "Release": "August 8, 2013",
+        "GameUI": true
+      },
+      "CookingMama": {
+        "Name": "Cooking Mama",
+        "Description": "Cooking Mama is a cooking simulation game where players prepare various recipes through mini-games. It's known for its charming graphics and engaging gameplay.",
+        "Creator": "Cooking Mama Limited",
+        "Platform": "Nintendo DS",
+        "Genre": "Simulation",
+        "Release": "April 18, 2006"
+      },
+      "CookingMama2": {
+        "Name": "Cooking Mama 2: Dinner With Friends",
+        "Description": "The sequel to Cooking Mama, this game offers new recipes and multiplayer modes, allowing friends to join in the cooking fun.",
+        "Creator": "Cooking Mama Limited",
+        "Platform": "Nintendo DS",
+        "Genre": "Simulation",
+        "Release": "September 25, 2007"
+      },
+      "DiddyKongRacing": {
+        "Name": "Diddy Kong Racing",
+        "Description": "Diddy Kong Racing is a 1997 racing game featuring characters from the Rare universe. Players race on various tracks using karts, hovercrafts, and airplanes.",
+        "Creator": "Rare",
+        "Platform": "Nintendo 64",
+        "Genre": "Racing",
+        "Release": "November 24, 1997"
+      },
+      "HelloKittyBigCityDreams": {
+        "Name": "Hello Kitty: Big City Dreams",
+        "Description": "In this game, players explore a vibrant city with Hello Kitty, completing tasks and meeting friends in a fun and colorful world.",
+        "Creator": "Sanrio",
+        "Platform": "Nintendo DS",
+        "Genre": "Adventure",
+        "Release": "October 2008"
+      },
+      "HelloKittyBirthdayAdventures": {
+        "Name": "Hello Kitty: Birthday Adventures",
+        "Description": "Players join Hello Kitty and her friends as they prepare for a birthday party, completing mini-games and challenges.",
+        "Creator": "Sanrio",
+        "Platform": "Nintendo DS",
+        "Genre": "Adventure",
+        "Release": "April 2009"
+      },
+      "HelloKittyParty": {
+        "Name": "Hello Kitty: Party",
+        "Description": "A party game featuring Hello Kitty and friends, with various mini-games and activities suitable for players of all ages.",
+        "Creator": "Sanrio",
+        "Platform": "Nintendo DS",
+        "Genre": "Party",
+        "Release": "November 2009"
+      },
+      "JetForceGemini": {
+        "Name": "Jet Force Gemini",
+        "Description": "Jet Force Gemini is a 1999 third-person shooter developed by Rare, featuring characters Juno and Vela as they fight against the evil Mizar.",
+        "Creator": "Rare",
+        "Platform": "Nintendo 64",
+        "Genre": "Action/Adventure",
+        "Release": "October 15, 1999"
+      },
+      "MarioKart64": {
+        "Name": "Mario Kart 64",
+        "Description": "Mario Kart 64 is a 1996 kart racing game featuring characters from the Mario franchise. Players race on various tracks using power-ups and items.",
+        "Creator": "Nintendo",
+        "Platform": "Nintendo 64",
+        "Genre": "Racing",
+        "Release": "February 10, 1996"
+      },
+      "LabradorAndFriends": {
+        "Name": "Nintendogs - Labrador & Friends",
+        "Description": "Nintendogs - Labrador & Friends is a virtual pet simulation game where players raise, train, and care for puppies of various breeds. The game utilizes the Nintendo DS's touchscreen and microphone for interactive gameplay, allowing players to pet, feed, and teach their virtual dogs new tricks.",
+        "Creator": "Nintendo",
+        "Platform": "Nintendo DS",
+        "Genre": "Simulation",
+        "Release": "April 21, 2005"
+      },
+      "MyLittlePonyCrystalPrincess": {
+        "Name": "My Little Pony: Crystal Princess - The Runaway Rainbow",
+        "Description": "My Little Pony: Crystal Princess - The Runaway Rainbow is a 2006 adventure game where players help the ponies restore color to Ponyville by completing mini-games and solving puzzles.",
+        "Creator": "Majesco Entertainment",
+        "Platform": "Game Boy Advance",
+        "Genre": "Adventure",
+        "Release": "October 10, 2006"
+      },
+      "PaperMario": {
+        "Name": "Paper Mario",
+        "Description": "Paper Mario is a 2000 role-playing game that combines traditional RPG elements with a unique paper aesthetic, following Mario's quest to rescue Princess Peach.",
+        "Creator": "Intelligent Systems",
+        "Platform": "Nintendo 64",
+        "Genre": "RPG",
+        "Release": "February 5, 2001"
+      },
+      "PokemonCrystal": {
+        "Name": "Pokemon Crystal",
+        "Description": "Pokemon Crystal is an enhanced version of Pokemon Gold and Silver, introducing animated sprites and the option to play as a female character.",
+        "Creator": "Game Freak",
+        "Platform": "Game Boy Color",
+        "Genre": "RPG",
+        "Release": "July 29, 2000"
+      },
+      "PaRappertheRapper": {
+        "Name": "PaRappa the Rapper",
+        "Description": "PaRappa the Rapper is a rhythm game that follows PaRappa, a paper-thin dog, as he learns various skills by rapping along with his mentors to win the heart of his crush, Sunny Funny.",
+        "Creator": "NanaOn-Sha",
+        "Platform": "PlayStation 1",
+        "Genre": "Rhythm",
+        "Release": "December 6, 1996"
+      },
+      "SuperMario64": {
+        "Name": "Super Mario 64",
+        "Description": "Super Mario 64 is a 1996 platform game for the Nintendo 64 and the first in the Super Mario series to feature 3D gameplay. As Mario, the player explores Princess Peach's castle and must rescue her from Bowser.",
+        "Creator": "Nintendo",
+        "Platform": "Nintendo 64",
+        "Genre": "3D Platformer",
+        "Release": "June 23, 1996"
+      },
+      "SuperMarioWorld": {
+        "Name": "Super Mario World",
+        "Description": "Super Mario World is a 1990 platform game for the Super Nintendo Entertainment System. The player controls Mario or Luigi as they travel through the Dinosaur Land to rescue Princess Toadstool from Bowser, while defeating enemies and completing levels. The game introduces Yoshi, a dinosaur companion.",
+        "Creator": "Nintendo",
+        "Platform": "Super Nintendo Entertainment System",
+        "Genre": "2D Platformer",
+        "Release": "November 21, 1990"
+      },
+      "SuperSmashBros": {
+        "Name": "Super Smash Bros",
+        "Description": "Super Smash Bros is a 1999 fighting game featuring characters from various Nintendo franchises. Players battle in a variety of stages using unique character abilities.",
+        "Creator": "Nintendo",
+        "Platform": "Nintendo 64",
+        "Genre": "Fighting",
+        "Release": "January 21, 1999"
+      },
+      "TurokDinosaurHunter": {
+        "Name": "Turok: Dinosaur Hunter",
+        "Description": "Turok: Dinosaur Hunter is a 1997 first-person shooter where players control Turok as he battles dinosaurs and other foes in a prehistoric world.",
+        "Creator": "Acclaim Entertainment",
+        "Platform": "Nintendo 64",
+        "Genre": "First-Person Shooter",
+        "Release": "March 4, 1997"
+      },
+      "MajorasMask": {
+        "Name": "The Legend of Zelda: Majora's Mask",
+        "Description": "Majora's Mask is a 2000 action-adventure game and the direct sequel to Ocarina of Time. Players have three days to save the world of Termina from destruction.",
+        "Creator": "Nintendo",
+        "Platform": "Nintendo 64",
+        "Genre": "Action/Adventure",
+        "Release": "October 26, 2000"
+      },
+      "OcarinaofTime": {
+        "Name": "The Legend of Zelda: Ocarina of Time",
+        "Description": "Ocarina of Time is a 1998 action-adventure game where players control Link to stop Ganondorf from obtaining the Triforce and conquering Hyrule.",
+        "Creator": "Nintendo",
+        "Platform": "Nintendo 64",
+        "Genre": "Action/Adventure",
+        "Release": "November 21, 1998"
+      },
+      "WaveRace64": {
+        "Name": "Wave Race 64",
+        "Description": "Wave Race 64 is a 1996 jet ski racing game known for its realistic water physics and engaging gameplay.",
+        "Creator": "Nintendo",
+        "Platform": "Nintendo 64",
+        "Genre": "Racing",
+        "Release": "October 12, 1996"
+      }
+    }
+  }
