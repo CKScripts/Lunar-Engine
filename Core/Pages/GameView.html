@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>L&#173;u&#173;n&#173;a&#173;r</title>
+    <link rel="icon" href="../Assets/Images/Favicon.png" sizes="512x512" type="image/png">
+    <link href="../Assets/Style/Core.css" rel="stylesheet">
+    <style>
+        .fullscreen-bar {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            height: 40px;
+            background: linear-gradient(to top,rgba(0,0,0,0.9),rgba(0,0,0,0));
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding-right: 10px;
+            z-index: 3;
+        }
+        #fullscreen-btn {
+            background: none;
+            border: none;
+            color: var(--text-color);
+            font-size: 18px;
+            padding: 5px 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        #fullscreen-btn:hover {
+            transform: scale(1.1);
+            filter: drop-shadow(0 0 5px rgba(255,255,255,0.8));
+        }
+        .tag {
+            display: inline-block;
+            background-color: var(--black-50);
+            color: var(--text-color);
+            padding: 5px 10px;
+            margin: 2px;
+            border-radius: 15px;
+            font-size: var(--font-size-small);
+            text-decoration: none;
+            transition: background-color var(--transition-default);
+        }
+        .tag:hover {
+            background-color: var(--btn-primary);
+            color: var(--text-color-bright);
+        }
+    </style>
+</head>
+<body>
+    <div id="particles-js"></div>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid d-flex align-items-center justify-content-start">
+            <span class="fa fa-bars me-4" data-bs-toggle="offcanvas" data-bs-target="#sideMenu" aria-controls="sideMenu"></span>
+            <a class="navbar-brand">
+                <div class="logo-container"></div>
+            </a>
+            <span class="text-white Unselectable">Lunar</span>
+        </div>
+    </nav>
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="sideMenu" aria-labelledby="sideMenuLabel">
+        <div class="offcanvas-header justify-content-start">
+            <span class="fa fa-bars me-4" data-bs-dismiss="offcanvas" aria-label="Close"></span>
+        </div>
+        <div class="offcanvas-body Unselectable">
+            <div class="offcanvas-body Unselectable">
+                <ul class="nav flex-column"></ul>
+            </div>
+        </div>
+    </div>
+    <div class="game-viewer-container">
+        <div class="game-viewer">
+            <div class="game-canvas Unselectable">
+                <iframe id= "myIframe" allow="fullscreen" src="$URL$" allowfullscreen></iframe>
+                <div id="gamebar" class="fullscreen-bar">
+                    <button id="fullscreen-btn"><span class="fa fa-expand"></span></button>
+                </div>
+            </div>
+            <div class="game-info">
+                <h2 class="game-title">$GAMENAME$</h2>
+                <div class="game-detail">By $CREATOR$</div>
+                <div class="game-metadata">
+                    <div class="metadata-item">
+                        <div class="metadata-label">Tags</div>
+                        <div class="game-description">
+                            <!-- $TAGS$ -->
+                        </div>
+                    </div>
+                </div>
+                <div class="metadata-item">
+                    <div class="metadata-label">Description</div>
+                    <div class="game-description">$DESC$</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const iframe = document.getElementById('myIframe');
+        const fullscreenBtn = document.getElementById('fullscreen-btn');
+        fullscreenBtn.addEventListener('click',() => {
+            if (!iframe) {
+                console.error('iframe element not found');
+                return;
+            }
+            try {
+                if (iframe.requestFullscreen) {
+                    iframe.requestFullscreen();
+                } else if (iframe.webkitRequestFullscreen) {
+                    iframe.webkitRequestFullscreen();
+                } else if (iframe.msRequestFullscreen) {
+                    iframe.msRequestFullscreen();
+                } else {
+                    console.warn('Fullscreen API not supported');
+                }
+            } catch (error) {
+                console.error('Error requesting fullscreen:',error);
+            }
+        });
+
+        const GameBar = document.getElementById("gamebar");
+        GameBar.remove();
+    </script>
+    <script src="../Assets/Scripts/Core.js"></script></body>
+</html>

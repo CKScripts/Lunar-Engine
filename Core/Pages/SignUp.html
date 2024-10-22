@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>L&#173;u&#173;n&#173;a&#173;r</title>
+    <link rel="Icon" href="Assets/Images/FavIcon.png" sizes="512x512" type="image/png">
+    <link href="../Assets/Style/Core.css" rel="stylesheet">
+    <style>
+        .SignInPanel {
+            background-color: rgba(0, 0, 0, 0.6);
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+            padding: 30px;
+        }
+        .InputContainer {
+            margin-bottom: 15px;
+        }
+        .InputContainer input {
+            background-color: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 5px;
+            padding: 10px 10px 10px 35px;
+            width: 100%;
+            transition: border-color 0.3s ease;
+        }
+        .InputContainer input:focus {
+            border-color: rgba(255, 255, 255, 0.3);
+            outline: none;
+        }
+        .InputContainer .Icon {
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        #LoginButton {
+            background-color: rgba(255, 255, 255, 0.1);
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            cursor: pointer;
+            padding: 10px;
+            transition: background-color 0.3s ease;
+            width: 100%;
+        }
+        #LoginButton:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+        .LoginIncorrect,.LoginSuccess {
+            border-radius: 5px;
+            font-size: 14px;
+            margin-top: 15px;
+            padding: 10px;
+            text-align: center;
+        }
+        .LoginIncorrect {
+            background-color: rgba(254, 109, 106, 0.1);
+            color: rgb(254, 109, 106);
+            display: none;
+        }
+        .LoginSuccess {
+            background-color: rgba(118, 254, 106, 0.1);
+            color: rgb(118, 254, 106);
+            display: none;
+        }
+        .Links {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .Links a {
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 14px;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .Links a:hover {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div class="SignInPanel">
+        <div class="logo-container"></div>
+        <form>
+            <div class="InputContainer Unselectable"><i class="fas fa-user Icon"></i><input type="text" placeholder="Username" required></div>
+            <div class="InputContainer Unselectable"><i class="fas fa-lock Icon"></i><input type="password" placeholder="Password" required></div>
+            <div class="InputContainer Unselectable"><i class="fas fa-lock Icon"></i><input type="password" placeholder="Confirm Password" required></div>
+            <button class="Unselectable" id="LoginButton" type="submit"><i class="fas fa-user-plus me-2"></i>Sign Up</button>
+        </form>
+        <div class="Links">
+            <a href="/Login" class="Unselectable"><i class="fas fa-sign-in-alt me-2"></i>Login</a>
+        </div>
+    </div>
+    <script src="../Assets/Scripts/Core.js"></script>
+</body>
+</html>
