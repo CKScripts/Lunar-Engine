@@ -4,21 +4,50 @@
 @import url("../Particles/Particles.css");
 
 :root {
-    --background-end: rgb(7, 10, 42);
-    --background-start: rgb(3, 2, 6);
-    --border-color: rgba(255, 255, 255, 0.05);
-    --border-color-light: rgba(255, 255, 255, 0.1);
-    --btn-primary: rgb(26, 35, 126);
-    --btn-primary-hover: rgb(40, 53, 147);
-    --form-bg: rgba(255, 255, 255, 0.1);
-    --modal-bg: rgba(7, 10, 42, 0.5);
-    --text-color: rgba(255, 255, 255, 0.75);
-    --text-color-bright: rgba(255, 255, 255, 0.9);
-    --text-color-muted: rgba(255, 255, 255, 0.5);
+    /* Colors */
+    --background-end: rgb(7,10,42);
+    --background-start: rgb(3,2,6);
+    --border-color: rgba(255,255,255,0.05);
+    --border-color-light: rgba(255,255,255,0.1);
+    --btn-primary: rgb(26,35,126);
+    --btn-primary-hover: rgb(40,53,147);
+    --form-bg: rgba(255,255,255,0.1);
+    --modal-bg: rgba(7,10,42,0.5);
+    --text-color: rgba(255,255,255,0.75);
+    --text-color-bright: rgba(255,255,255,0.9);
+    --text-color-muted: rgba(255,255,255,0.5);
+    --black-50: rgba(0,0,0,0.5);
+    --white: #fff;
+
+    /* Shadows */
+    --shadow-light: 0 4px 6px rgba(0,0,0,0.3);
+    --shadow-dark: 0 8px 16px rgba(0,0,0,0.5);
+
+    /* Transitions */
+    --transition-default: 0.3s;
+
+    /* Border Radius */
+    --border-radius-default: 10px;
+    --border-radius-large: 15px;
+
+    /* Font Sizes */
+    --font-size-small: 0.875rem;
+    --font-size-default: 1rem;
+    --font-size-large: 1.125rem;
+    --font-size-xlarge: 1.5rem;
+    --font-size-xxlarge: 1.75rem;
+
+    /* Spacing */
+    --spacing-small: 10px;
+    --spacing-medium: 15px;
+    --spacing-large: 20px;
 }
 
+/* Global Styles */
 body {
     background: linear-gradient(to bottom, var(--background-start), var(--background-end));
+    background-attachment: fixed;
+    background-size: cover;
     font-family: "Noto Sans", sans-serif;
     height: 100vh;
     margin: 0;
@@ -35,6 +64,18 @@ body {
     background-color: var(--btn-primary-hover);
 }
 
+.form-control {
+    background-color: var(--form-bg);
+    border: none;
+    color: var(--white);
+    margin-bottom: var(--spacing-large);
+}
+
+.form-control::placeholder {
+    color: var(--text-color-muted);
+}
+
+/* Game Styles */
 .ejs_game {
     background: linear-gradient(to bottom, var(--background-start), var(--background-end)) !important;
 }
@@ -42,27 +83,12 @@ body {
 .ejs_loading_text {
     color: var(--text-color) !important;
     font-family: "Noto Sans", sans-serif !important;
-    font-size: 1.125rem;
+    font-size: var(--font-size-large);
 }
 
 .ejs_start_button {
     background-color: var(--btn-primary) !important;
     font-family: "Noto Sans", sans-serif !important;
-}
-
-.ejs_start_button:hover {
-    background-color: var(--btn-primary-hover) !important;
-}
-
-.form-control {
-    background-color: var(--form-bg);
-    border: none;
-    color: white;
-    margin-bottom: 20px;
-}
-
-.form-control::placeholder {
-    color: var(--text-color-muted);
 }
 
 .game-canvas {
@@ -75,24 +101,28 @@ body {
 
 .game-canvas iframe {
     border: none;
-    border-radius: 15px;
-    left: 0;
+    border-radius: var(--border-radius-large);
     height: 100%;
+    left: 0;
     position: absolute;
     top: 0;
     width: 100%;
 }
 
 .game-description {
-    font-size: 0.875rem;
+    display: block;
+    font-size: var(--font-size-small);
     line-height: 1.6;
-    margin-bottom: 20px;
+    margin-bottom: var(--spacing-large);
+    max-height: 4.8em;
+    overflow: hidden;
+    position: relative;
 }
 
 .game-detail {
     color: var(--text-color-muted);
-    font-size: 1rem;
-    margin-bottom: 15px;
+    font-size: var(--font-size-default);
+    margin-bottom: var(--spacing-medium);
 }
 
 .game-info {
@@ -102,61 +132,131 @@ body {
 .game-metadata {
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
-    margin-bottom: 20px;
+    gap: var(--spacing-medium);
+    margin-bottom: var(--spacing-large);
 }
 
 .game-rating {
-    font-size: 1rem;
-    margin-bottom: 10px;
+    font-size: var(--font-size-default);
+    margin-bottom: var(--spacing-small);
 }
 
 .game-title {
-    font-size: 1.5rem;
+    font-size: var(--font-size-xlarge);
     font-weight: bold;
-    margin-bottom: 10px;
-}
-
-.game-description {
-    display: -webkit-box;
-    display: box;
-    max-height: 6rem;
-    max-width: 100%; 
-    overflow: hidden; 
-    -webkit-box-orient: vertical; 
-    box-orient: vertical;
-    -webkit-line-clamp: 3; 
-    line-clamp: 3;
+    margin-bottom: var(--spacing-small);
 }
 
 .game-viewer {
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 15px;
+    background-color: var(--black-50);
+    border-radius: var(--border-radius-large);
     color: var(--text-color-muted);
+    height: 60%;
     margin: 0 auto;
     max-width: 1200px;
-    height: 60%;
-    padding: 20px;
+    padding: var(--spacing-large);
 }
 
 .game-viewer-container {
-    margin-bottom: 20px;
+    height: 100%;
+    margin-bottom: var(--spacing-large);
     overflow: hidden;
     position: relative;
     width: 100%;
-    height: 100%;
 }
 
+/* GameCard Styles */
+.GameCard {
+    background-color: var(--black-50);
+    border-radius: var(--border-radius-default);
+    box-shadow: var(--shadow-light);
+    max-width: 200px;
+    padding: var(--spacing-medium);
+    text-align: center;
+    transition: transform var(--transition-default), box-shadow var(--transition-default);
+    width: 100%;
+    z-index: 1;
+}
+
+.GameCard:hover {
+    box-shadow: var(--shadow-dark);
+    transform: translateY(-10px);
+}
+
+.GameGrid {
+    display: grid;
+    gap: var(--spacing-medium);
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    justify-items: center;
+    padding: var(--spacing-large);
+}
+
+.GameLink {
+    color: inherit;
+    display: block;
+    height: 100%;
+    text-decoration: none;
+}
+
+.GameCard:hover .GameLink {
+    box-shadow: var(--shadow-dark);
+    transform: scale(1.05);
+}
+
+.GameThumbnail {
+    border-radius: 8px;
+    height: 150px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.GameTitle {
+    color: var(--white);
+    font-size: 1.1em;
+    margin-top: var(--spacing-small);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* Input Styles */
+.InputContainer {
+    margin-bottom: var(--spacing-large);
+    position: relative;
+}
+
+.InputContainer input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid var(--text-color-muted);
+    color: var(--text-color-bright);
+    outline: none;
+    padding: var(--spacing-small) var(--spacing-small) var(--spacing-small) 35px;
+    transition: border-bottom var(--transition-default);
+    width: 100%;
+}
+
+.InputContainer input:focus {
+    border-bottom: 1px solid var(--text-color-bright);
+}
+
+.InputContainer .Icon {
+    color: var(--text-color);
+    left: var(--spacing-small);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Logo Styles */
 .logo-container {
     animation: LogoPulse 10s infinite;
-    background-image: url("../../Assets/Images/Logo.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+    background: url("../../Assets/Images/Logo.svg") center/contain no-repeat;
     height: 30px;
     width: 30px;
 }
 
+/* Metadata Styles */
 .metadata-item {
     flex: 1;
     min-width: 120px;
@@ -165,22 +265,23 @@ body {
 
 .metadata-label {
     color: var(--text-color-bright);
-    font-size: 0.875rem;
+    font-size: var(--font-size-small);
     font-weight: bold;
     margin-bottom: 5px;
 }
 
 .metadata-value {
-    font-size: 0.875rem;
+    font-size: var(--font-size-small);
 }
 
+/* Modal Styles */
 .modal-content {
     background-color: var(--modal-bg);
     border: 1px solid var(--border-color);
 }
 
-.modal-header,
-.modal-footer {
+.modal-footer,
+.modal-header {
     border-color: var(--border-color-light);
 }
 
@@ -196,19 +297,20 @@ body {
     white-space: nowrap;
 }
 
+/* Navigation Styles */
 .nav-header {
     color: var(--text-color) !important;
-    font-size: 1.125rem;
+    font-size: var(--font-size-large);
 }
 
 .nav-link {
     color: var(--text-color) !important;
-    font-size: 1rem;
+    font-size: var(--font-size-default);
 }
 
 .nav-link:hover {
-    color: #fff !important;
-    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.8));
+    color: var(--white) !important;
+    filter: drop-shadow(0 0 5px var(--text-color-bright));
 }
 
 .navbar {
@@ -220,15 +322,16 @@ body {
 .navbar .fa {
     color: var(--text-color);
     cursor: pointer;
-    font-size: 1.25rem;
+    font-size: var(--font-size-large);
 }
 
 .navbar .text-white {
     color: var(--text-color);
     font-family: "Dosis", sans-serif;
-    font-size: 1.75rem;
+    font-size: var(--font-size-xxlarge);
 }
 
+/* Offcanvas Styles */
 .offcanvas {
     background-color: var(--modal-bg);
 }
@@ -236,58 +339,113 @@ body {
 .offcanvas-header {
     color: var(--text-color);
     cursor: pointer;
-    font-size: 1.25rem;
+    font-size: var(--font-size-large);
     padding: 28px 26px;
 }
 
 .offcanvas-header .fa-bars {
     color: var(--text-color);
     cursor: pointer;
-    font-size: 1.25rem;
+    font-size: var(--font-size-large);
 }
 
+/* SignIn Panel Styles */
+.SignInPanel {
+    aspect-ratio: 3/4;
+    background-color: var(--black-50);
+    border-radius: var(--border-radius-large);
+    color: var(--text-color);
+    left: 50%;
+    max-width: 400px;
+    padding: var(--spacing-large);
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+}
+
+.SignInPanel .logo-container {
+    height: 60px;
+    left: 50%;
+    position: absolute;
+    top: 15%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+}
+
+.SignInPanel form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40%;
+}
+
+.SignInPanel button {
+    background-color: var(--btn-primary);
+    border: none;
+    border-radius: 5px;
+    color: var(--text-color-bright);
+    cursor: pointer;
+    padding: var(--spacing-small);
+    transition: background-color var(--transition-default);
+}
+
+.SignInPanel button:hover {
+    background-color: var(--btn-primary-hover);
+}
+
+.SignInPanel .Links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: var(--spacing-medium);
+}
+
+.SignInPanel .Links a {
+    color: var(--text-color);
+    font-size: 0.9em;
+    text-decoration: none;
+}
+
+/* Utility Classes */
 .Unselectable {
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
     user-select: none;
 }
 
+/* Particle.js Styles */
 #particles-js {
     height: 100%;
     left: 0;
-    position: absolute;
+    position: fixed;
     top: 0;
     width: 100%;
     z-index: 0;
 }
 
+/* Animations */
 @keyframes LogoPulse {
     0%, 100% {
-        filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.8));
+        filter: drop-shadow(0 0 5px var(--text-color-bright));
     }
     50% {
-        filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8));
+        filter: drop-shadow(0 0 10px var(--text-color-bright));
     }
 }
 
+/* Media Queries */
 @media (min-width: 768px) {
     .game-canvas {
         margin-bottom: 0;
-        margin-right: 20px;
+        margin-right: var(--spacing-large);
         width: 60%;
     }
 
     .game-description,
     .metadata-label,
     .metadata-value {
-        font-size: 1rem;
+        font-size: var(--font-size-default);
     }
 
     .game-detail {
-        font-size: 1.125rem;
+        font-size: var(--font-size-large);
     }
 
     .game-info {
@@ -295,12 +453,12 @@ body {
     }
 
     .game-rating {
-        font-size: 1.125rem;
+        font-size: var(--font-size-large);
     }
 
     .game-title {
         color: var(--text-color-bright);
-        font-size: 1.75rem;
+        font-size: var(--font-size-xxlarge);
     }
 
     .game-viewer {
