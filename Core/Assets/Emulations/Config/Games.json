@@ -1,0 +1,388 @@
+{
+  "Games": {
+    "AnimalCrossingWildWorld": {
+      "Name": "Animal Crossing: Wild World",
+      "Core": "nds",
+      "GameFile": "AnimalCrossingWildWorld.zip",
+      "ColorTheme": "#7FBA00"
+    },
+    "Banjo-Kazooie": {
+      "Name": "Banjo-Kazooie",
+      "Core": "n64",
+      "GameFile": "Banjo-Kazooie.zip",
+      "ColorTheme": "#FFD700"
+    },
+    "BlastCorps": {
+      "Name": "Blast Corps",
+      "Core": "n64",
+      "GameFile": "BlastCorps.zip",
+      "ColorTheme": "#FF4500"
+    },
+    "BodyHarvest": {
+      "Name": "Body Harvest",
+      "Core": "n64",
+      "GameFile": "BodyHarvest.zip",
+      "ColorTheme": "#228B22"
+    },
+    "Bomberman64": {
+      "Name": "Bomberman 64",
+      "Core": "n64",
+      "GameFile": "Bomberman64.zip",
+      "ColorTheme": "#1E90FF"
+    },
+    "BrainAge": {
+      "Name": "Brain Age",
+      "Core": "nds",
+      "GameFile": "BrainAge.zip",
+      "ColorTheme": "#808080"
+    },
+    "BrainAge2": {
+      "Name": "Brain Age 2",
+      "Core": "nds",
+      "GameFile": "BrainAge2.zip",
+      "ColorTheme": "#A9A9A9"
+    },
+    "ConkersBadFurDay": {
+      "Name": "Conker's Bad Fur Day",
+      "Core": "n64",
+      "GameFile": "ConkersBadFurDay.zip",
+      "ColorTheme": "#8B4513"
+    },
+    "CookingMama": {
+      "Name": "Cooking Mama",
+      "Core": "nds",
+      "GameFile": "CookingMama.zip",
+      "ColorTheme": "#FF69B4"
+    },
+    "CookingMama2": {
+      "Name": "Cooking Mama 2: Dinner With Friends",
+      "Core": "nds",
+      "GameFile": "CookingMama2.zip",
+      "ColorTheme": "#FF1493"
+    },
+    "DiddyKongRacing": {
+      "Name": "Diddy Kong Racing",
+      "Core": "n64",
+      "GameFile": "DiddyKongRacing.zip",
+      "ColorTheme": "#FF8C00"
+    },
+    "FinalFantasyVII": {
+      "Name": "Final Fantasy VII",
+      "Core": "psx",
+      "GameFile": "FinalFantasyVII.zip",
+      "ColorTheme": "#4169E1"
+    },
+    "GalacticPinball": {
+      "Name": "Galactic Pinball",
+      "Core": "vb",
+      "GameFile": "GalacticPinball.zip",
+      "ColorTheme": "#4B0082"
+    },
+    "Golf": {
+      "Name": "Golf",
+      "Core": "vb",
+      "GameFile": "Golf.zip",
+      "ColorTheme": "#006400"
+    },
+    "HelloKittyBigCityDreams": {
+      "Name": "Hello Kitty: Big City Dreams",
+      "Core": "nds",
+      "GameFile": "HelloKittyBigCityDreams.zip",
+      "ColorTheme": "#FFC0CB"
+    },
+    "HelloKittyBirthdayAdventures": {
+      "Name": "Hello Kitty: Birthday Adventures",
+      "Core": "nds",
+      "GameFile": "HelloKittyBirthdayAdventures.zip",
+      "ColorTheme": "#FF69B4"
+    },
+    "HelloKittyParty": {
+      "Name": "Hello Kitty: Party",
+      "Core": "nds",
+      "GameFile": "HelloKittyParty.zip",
+      "ColorTheme": "#FF1493"
+    },
+    "InnsmouthnOYakata": {
+      "Name": "Innsmouth no Yakata",
+      "Core": "vb",
+      "GameFile": "InnsmouthnOYakata.zip",
+      "ColorTheme": "#8B4513"
+    },
+    "JackBros": {
+      "Name": "Jack Bros.",
+      "Core": "vb",
+      "GameFile": "JackBros.zip",
+      "ColorTheme": "#FF8C00"
+    },
+    "JetForceGemini": {
+      "Name": "Jet Force Gemini",
+      "Core": "n64",
+      "GameFile": "JetForceGemini.zip",
+      "ColorTheme": "#8A2BE2"
+    },
+    "KirbySuperStarUltra": {
+      "Name": "Kirby Super Star Ultra",
+      "Core": "nds",
+      "GameFile": "KirbySuperStarUltra.zip",
+      "ColorTheme": "#FF6ACF"
+    },
+    "MarioClash": {
+      "Name": "Mario Clash",
+      "Core": "vb",
+      "GameFile": "MarioClash.zip",
+      "ColorTheme": "#FF4500"
+    },
+    "MarioKart64": {
+      "Name": "Mario Kart 64",
+      "Core": "n64",
+      "GameFile": "MarioKart64.zip",
+      "ColorTheme": "#FF0000"
+    },
+    "MarioKartDS": {
+      "Name": "Mario Kart DS",
+      "Core": "nds",
+      "GameFile": "MarioKartDS.zip",
+      "ColorTheme": "#FF4500"
+    },
+    "MarioPartyDS": {
+      "Name": "Mario Party DS",
+      "Core": "nds",
+      "GameFile": "MarioPartyDS.zip",
+      "ColorTheme": "#1E90FF"
+    },
+    "MariosTennis": {
+      "Name": "Mario's Tennis",
+      "Core": "vb",
+      "GameFile": "MariosTennis.zip",
+      "ColorTheme": "#32CD32"
+    },
+    "MyLittlePonyCrystalPrincess": {
+      "Name": "My Little Pony: Crystal Princess - The Runaway Rainbow",
+      "Core": "gba",
+      "GameFile": "MyLittlePonyCrystalPrincess.zip",
+      "ColorTheme": "#DA70D6"
+    },
+    "NestersFunkyBowling": {
+      "Name": "Nester's Funky Bowling",
+      "Core": "vb",
+      "GameFile": "NestersFunkyBowling.zip",
+      "ColorTheme": "#1E90FF"
+    },
+    "NewSuperMarioBros": {
+      "Name": "New Super Mario Bros.",
+      "Core": "nds",
+      "GameFile": "NewSuperMarioBros.zip",
+      "ColorTheme": "#FF6347"
+    },
+    "LabradorAndFriends": {
+      "Name": "Nintendogs - Labrador & Friends",
+      "Core": "nds",
+      "GameFile": "LabradorAndFriends.zip",
+      "ColorTheme": "#D2691E"
+    },
+    "PanicBomber": {
+      "Name": "Panic Bomber",
+      "Core": "vb",
+      "GameFile": "PanicBomber.zip",
+      "ColorTheme": "#FFD700"
+    },
+    "PaperMario": {
+      "Name": "Paper Mario",
+      "Core": "n64",
+      "GameFile": "PaperMario.zip",
+      "ColorTheme": "#FFA500"
+    },
+    "PaRappatheRapper": {
+      "Name": "PaRappa the Rapper",
+      "Core": "psx",
+      "GameFile": "PaRappatheRapper.zip",
+      "ColorTheme": "#FFFF00"
+    },
+    "PokemonBlack": {
+      "Name": "Pokemon Black",
+      "Core": "nds",
+      "GameFile": "PokemonBlack.zip",
+      "ColorTheme": "#2F4F4F"
+    },
+    "PokemonCrystal": {
+      "Name": "Pokemon Crystal",
+      "Core": "gb",
+      "GameFile": "PokemonCrystal.zip",
+      "ColorTheme": "#00FFFF"
+    },
+    "PokemonDiamond": {
+      "Name": "Pokemon Diamond",
+      "Core": "nds",
+      "GameFile": "PokemonDiamond.zip",
+      "ColorTheme": "#B0E0E6"
+    },
+    "PokemonHeartGold": {
+      "Name": "Pokemon HeartGold",
+      "Core": "nds",
+      "GameFile": "PokemonHeartGold.zip",
+      "ColorTheme": "#FFD700"
+    },
+    "PokemonPearl": {
+      "Name": "Pokemon Pearl",
+      "Core": "nds",
+      "GameFile": "PokemonPearl.zip",
+      "ColorTheme": "#FFF0F5"
+    },
+    "PokemonSoulSilver": {
+      "Name": "Pokemon SoulSilver",
+      "Core": "nds",
+      "GameFile": "PokemonSoulSilver.zip",
+      "ColorTheme": "#C0C0C0"
+    },
+    "PokemonWhite": {
+      "Name": "Pokemon White",
+      "Core": "nds",
+      "GameFile": "PokemonWhite.zip",
+      "ColorTheme": "#FFFFFF"
+    },
+    "RedAlarm": {
+      "Name": "Red Alarm",
+      "Core": "vb",
+      "GameFile": "RedAlarm.zip",
+      "ColorTheme": "#DC143C"
+    },
+    "RhythmHeaven": {
+      "Name": "Rhythm Heaven",
+      "Core": "nds",
+      "GameFile": "RhythmHeaven.zip",
+      "ColorTheme": "#FFD700"
+    },
+    "SDGundamDimensionWar": {
+      "Name": "SD Gundam Dimension War",
+      "Core": "vb",
+      "GameFile": "SDGundamDimensionWar.zip",
+      "ColorTheme": "#4169E1"
+    },
+    "SilentHill": {
+      "Name": "Silent Hill",
+      "Core": "psx",
+      "GameFile": "SilentHill.zip",
+      "ColorTheme": "#4A4A4A"
+    },
+    "SpaceInvadersVirtualCollection": {
+      "Name": "Space Invaders Virtual Collection",
+      "Core": "vb",
+      "GameFile": "SpaceInvadersVirtualCollection.zip",
+      "ColorTheme": "#008080"
+    },
+    "SpaceSquash": {
+      "Name": "Space Squash",
+      "Core": "vb",
+      "GameFile": "SpaceSquash.zip",
+      "ColorTheme": "#9932CC"
+    },
+    "SuperMario64": {
+      "Name": "Super Mario 64",
+      "Core": "n64",
+      "GameFile": "SuperMario64.zip",
+      "ColorTheme": "#FF0000"
+    },
+    "SuperMario64DS": {
+      "Name": "Super Mario 64 DS",
+      "Core": "nds",
+      "GameFile": "SuperMario64DS.zip",
+      "ColorTheme": "#FF4500"
+    },
+    "SuperMarioWorld": {
+      "Name": "Super Mario World",
+      "Core": "snes",
+      "GameFile": "SuperMarioWorld.zip",
+      "ColorTheme": "#32CD32"
+    },
+    "SuperSmashBros": {
+      "Name": "Super Smash Bros",
+      "Core": "n64",
+      "GameFile": "SuperSmashBros.zip",
+      "ColorTheme": "#4B0082"
+    },
+    "Teleroboxer": {
+      "Name": "Teleroboxer",
+      "Core": "vb",
+      "GameFile": "Teleroboxer.zip",
+      "ColorTheme": "#B8860B"
+    },
+    "MajorasMask": {
+      "Name": "The Legend of Zelda: Majora's Mask",
+      "Core": "n64",
+      "GameFile": "MajorasMask.zip",
+      "ColorTheme": "#800080"
+    },
+    "OcarinaofTime": {
+      "Name": "The Legend of Zelda: Ocarina of Time",
+      "Core": "n64",
+      "GameFile": "OcarinaofTime.zip",
+      "ColorTheme": "#228B22"
+    },
+    "TurokDinosaurHunter": {
+      "Name": "Turok: Dinosaur Hunter",
+      "Core": "n64",
+      "GameFile": "TurokDinosaurHunter.zip",
+      "ColorTheme": "#006400"
+    },
+    "VerticalForce": {
+      "Name": "Vertical Force",
+      "Core": "vb",
+      "GameFile": "VerticalForce.zip",
+      "ColorTheme": "#483D8B"
+    },
+    "VirtualBowling": {
+      "Name": "Virtual Bowling",
+      "Core": "vb",
+      "GameFile": "VirtualBowling.zip",
+      "ColorTheme": "#8B4513"
+    },
+    "VirtualBoyWarioLand": {
+      "Name": "Virtual Boy Wario Land",
+      "Core": "vb",
+      "GameFile": "VirtualBoyWarioLand.zip",
+      "ColorTheme": "#FFD700"
+    },
+    "VirtualFishing": {
+      "Name": "Virtual Fishing",
+      "Core": "vb",
+      "GameFile": "VirtualFishing.zip",
+      "ColorTheme": "#1E90FF"
+    },
+    "VirtualLab": {
+      "Name": "Virtual Lab",
+      "Core": "vb",
+      "GameFile": "VirtualLab.zip",
+      "ColorTheme": "#9370DB"
+    },
+    "VirtualLeagueBaseball": {
+      "Name": "Virtual League Baseball",
+      "Core": "vb",
+      "GameFile": "VirtualLeagueBaseball.zip",
+      "ColorTheme": "#228B22"
+    },
+    "VTetris": {
+      "Name": "V-Tetris",
+      "Core": "vb",
+      "GameFile": "VTetris.zip",
+      "ColorTheme": "#FF6347"
+    },
+    "Waterworld": {
+      "Name": "Waterworld",
+      "Core": "vb",
+      "GameFile": "Waterworld.zip",
+      "ColorTheme": "#00BFFF"
+    },
+    "WaveRace64": {
+      "Name": "Wave Race 64",
+      "Core": "n64",
+      "GameFile": "WaveRace64.zip",
+      "ColorTheme": "#00BFFF"
+    },
+    "3DTetris": {
+      "Name": "3D Tetris",
+      "Core": "vb",
+      "GameFile": "3DTetris.zip",
+      "ColorTheme": "#FF0000"
+    }
+  }
+}
