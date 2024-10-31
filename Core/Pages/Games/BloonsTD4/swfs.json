@@ -1,0 +1,18 @@
+{
+    "swfs": [
+      {
+        "location": "BloonsTD4.swf",
+        "title": "Bloons Tower Defense 4",
+        "author": "Ninja Kiwi",
+        "authorLink": "https://ninjakiwi.com",
+        "config": {
+          "autoplay": "on",
+          "backgroundColor": "#000000",
+          "letterbox": "off",
+          "unmuteOverlay": "hidden",
+          "forceScale": false,
+          "forceAlign": false
+        }
+      }
+    ]
+  }
